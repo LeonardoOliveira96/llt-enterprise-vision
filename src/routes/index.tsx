@@ -5,6 +5,7 @@ import { Hero } from "@/components/landing/Hero";
 import { Services } from "@/components/landing/Services";
 import { WhyUs } from "@/components/landing/WhyUs";
 import { Visual } from "@/components/landing/Visual";
+import { Team } from "@/components/landing/Team";
 import { Contact } from "@/components/landing/Contact";
 import { Footer } from "@/components/landing/Footer";
 
@@ -37,6 +38,7 @@ function Index() {
         <Services lang={lang} />
         <WhyUs lang={lang} />
         <Visual lang={lang} />
+        <Team lang={lang} />
         <Contact lang={lang} />
       </main>
       <Footer lang={lang} setLang={setLang} />
